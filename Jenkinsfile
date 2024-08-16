@@ -3,7 +3,7 @@ pipeline {
     jdk 'Java17'
   }
   agent {
-    node { label 'docker-host' }
+    node { label 'docker-test' }
   }
   
   options {
